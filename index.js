@@ -31,7 +31,7 @@ function init() {
 
         function CubeIterator(center) {
             this.center = center.floored();
-            this.apothem = 1;
+            this.apothem = 0;
             this.side = 0;
             this.point = vec3(0, 0, -1);
             this.max = zeroed[this.side].scaled(2 * this.apothem);
